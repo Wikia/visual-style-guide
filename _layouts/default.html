@@ -11,11 +11,11 @@
 <body>
 <div class="page">
 	<div class="row full-width">
-		<div class="small-2 columns main-columns">
+		<div class="small-2 columns main-columns main-columns-left">
 			{% include nav.html %}
 		</div>
-		<div class="small-10 columns main-columns">
-			<div class="content {{page.contentClass}}">
+		<div class="small-10 columns main-columns main-columns-right">
+			<div class="container {{page.contentClass}}">
 				{{content}}
 			</div>
 		</div>

@@ -34,14 +34,23 @@ body {
 	padding: 0;
 }
 
-/* Style homepage */
+.main-columns-left {
 
-.main-image {
+}
+
+.main-columns-right {
 	height: 100%;
 	background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+/* Style homepage */
+
+.content-home {
+	background: transparent;
+	height: 100%;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -65,8 +74,7 @@ h2 {
 	font-weight: normal;
 }
 
-.content {
-	background-color: #fff;
+.container {
 
 	p {
 		margin: 25px 0;
@@ -75,4 +83,33 @@ h2 {
 
 /* Style subpage */
 
+.subpage-category {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 30px;
+}
 
+.container-inner {
+	background-color: white;
+	padding: 0 20px;
+
+	header {
+		border-bottom: 1px solid #C6D0D7;
+		padding: 50px 0px;
+
+		h1 {
+			color: #0F3154;
+			font-size: 42px;
+			font-weight: bold;
+		}
+
+		p {
+			color: #666;
+			font-size: 16px;
+			font-weight: normal;
+		}
+	}
+
+
+}
