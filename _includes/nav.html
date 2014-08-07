@@ -3,10 +3,10 @@
 	<img class="logo" src="{{site.baseurl}}/img/wikia-logo.png" alt="wikia logo"/>
 
 	<ul class="nav nav-primary">
-		<li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+		<li><a class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
 		{% for parent in site.categories.main %}
-		<li><a href="{{site.baseurl}}{{parent.url}}">{{ parent.title }}</a>
-			<ul class="dropdown {{include.navSecondaryClass}}">
+		<li><a>{{ parent.title }}</a>
+			<ul class="nav nav-secondary dropdown">
 				{% for post in site.categories.[parent.subcategory] %}
 				<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 				{% endfor %}

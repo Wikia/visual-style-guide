@@ -5,10 +5,12 @@
 	<title>{% if page.title %}{{page.title}} · {% endif %}Wikia Styleguide{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
 	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 	<meta name="description" content="{{page.meta}}">
+	<script src="{{site.baseurl}}/js/jquery/jquery-2.1.1.min.js"></script>
+	<script src="{{site.baseurl}}/js/main.js"></script>
 </head>
 <body>
 
-{% include nav.html navSecondaryClass="nav-secondary" %}
+{% include nav.html %}
 
 <div class="content {{page.contentClass}}">
 	{{content}}
