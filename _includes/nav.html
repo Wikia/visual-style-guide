@@ -1,16 +1,24 @@
-<nav>
+<nav class="{{include.navclass}}">
 	<img class="logo" src="{{site.baseurl}}/img/wikia-logo.png" alt="wikia logo"/>
 
 	<ul class="nav nav-primary">
 		<li class="{% if page.url == '/index.html' %}active{% endif %}">
 			<a href="{{site.baseurl}}/">Home</a>
 		</li>
-		{% for parent in site.categories.main %}
+		{% for primary in site.categories.main %}
 		<li class="{% if page.url contains parent.permalink %}active{% endif %}">
-			<a>{{ parent.title }}</a>
+			<a>{{ primary.title }}</a>
 			<ul class="nav nav-secondary dropdown">
-				{% for post in site.categories.[parent.subcategory] %}
-				<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+				{% for secondary in site.categories.[primary.parentOf] %}
+				<li><a>{{secondary.title}}</a>
+					<ul class="nav nav-tertiary dropdown">
+						{% for tertiary in site.categories.[secondary.parentOf] %}
+						<li>
+							<a href="{{site.baseurl}}{{tertiary.url}}">{{tertiary.title}}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</li>
 				{% endfor %}
 			</ul>
 		</li>
