@@ -3,71 +3,94 @@
 nav {
   background-color: #fff;
   height: 100%;
-  text-align: center;
   overflow: auto;
+  text-align: center;
   width: 100%;
 }
 /* line 10, ../_sass/nav.scss */
+nav .logo {
+  display: inline-block;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+/* line 16, ../_sass/nav.scss */
 nav ul {
   list-style: none;
+  text-align: left;
 }
-/* line 13, ../_sass/nav.scss */
+/* line 20, ../_sass/nav.scss */
 nav ul li {
   list-style-type: none;
 }
-/* line 18, ../_sass/nav.scss */
-nav .logo {
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
+/* line 22, ../_sass/nav.scss */
+nav ul li ul {
+  margin-left: 0;
 }
-/* line 24, ../_sass/nav.scss */
-nav ul.nav-primary {
+/* line 28, ../_sass/nav.scss */
+nav .nav-primary {
   border-top: 1px solid #f0f0f0;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 30, ../_sass/nav.scss */
-nav ul.nav-secondary {
-  margin-left: 0;
-  padding-left: 0;
+/* line 34, ../_sass/nav.scss */
+nav .dropdown {
+  display: none;
 }
-/* line 35, ../_sass/nav.scss */
+/* line 38, ../_sass/nav.scss */
 nav a {
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
   border-bottom: 1px solid #f0f0f0;
-  color: #aeaeae;
+  color: #808080;
+  display: block;
+  padding: 20px 0 20px 20px;
   text-decoration: none;
 }
-/* line 43, ../_sass/nav.scss */
+/* line 45, ../_sass/nav.scss */
 nav a:hover {
-  color: #ffffff;
-  background-color: #0a5fa3;
+  color: #808080;
 }
 /* line 51, ../_sass/nav.scss */
-nav .active a {
+nav .item-primary:hover {
   background-color: #0a5fa3;
   color: #ffffff;
 }
 /* line 57, ../_sass/nav.scss */
-nav .dropdown {
-  border: 0;
-  display: none;
-}
-/* line 61, ../_sass/nav.scss */
-nav .dropdown a {
-  background-color: #f5f5f5;
-  color: #aeaeae;
-}
-/* line 65, ../_sass/nav.scss */
-nav .dropdown a:hover {
-  color: #828282;
+nav .item-secondary {
   background-color: #ebebeb;
 }
+/* line 60, ../_sass/nav.scss */
+nav .item-secondary:hover {
+  background-color: #cecece;
+}
+/* line 65, ../_sass/nav.scss */
+nav .item-tertiary {
+  padding-left: 35px;
+}
+/* line 68, ../_sass/nav.scss */
+nav .item-tertiary:hover {
+  background-color: #ebebeb;
+}
+/* line 74, ../_sass/nav.scss */
+nav .active > .item-primary {
+  background-color: #0a5fa3;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* line 79, ../_sass/nav.scss */
+nav .active > .item-secondary {
+  background-color: #ebebeb;
+  font-weight: bold;
+}
+/* line 83, ../_sass/nav.scss */
+nav .active > .item-tertiary {
+  color: #0a5fa3;
+  font-weight: bold;
+}
+/* line 86, ../_sass/nav.scss */
+nav .active > .item-tertiary:hover {
+  background-color: transparent;
+}
 
-/* line 73, ../_sass/nav.scss */
-ul.main-menu a.active + .dropdown {
+/* line 93, ../_sass/nav.scss */
+.active a + .dropdown {
   display: block;
 }

@@ -3,18 +3,19 @@
 
 	<ul class="nav nav-primary">
 		<li class="{% if page.url == '/index.html' %}active{% endif %}">
-			<a href="{{site.baseurl}}/">Home</a>
+			<a href="{{site.baseurl}}/" class="item-primary">Home</a>
 		</li>
 		{% for primary in site.categories.main %}
-		<li class="{% if page.url contains parent.permalink %}active{% endif %}">
-			<a>{{ primary.title }}</a>
+		<li class="{% if page.url contains primary.permalink %}active{% endif %}">
+			<a class="item-primary">{{ primary.title }}</a>
 			<ul class="nav nav-secondary dropdown">
 				{% for secondary in site.categories.[primary.parentOf] %}
-				<li><a>{{secondary.title}}</a>
+				<li class="{% if page.url contains secondary.permalink %}active{% endif %}">
+					<a class="item-secondary">{{secondary.title}}</a>
 					<ul class="nav nav-tertiary dropdown">
 						{% for tertiary in site.categories.[secondary.parentOf] %}
-						<li>
-							<a href="{{site.baseurl}}{{tertiary.url}}">{{tertiary.title}}</a>
+						<li class="{% if page.url contains tertiary.permalink %}active{% endif %}">
+							<a href="{{site.baseurl}}{{tertiary.url}}" class="item-tertiary">{{tertiary.title}}</a>
 						</li>
 						{% endfor %}
 					</ul>
