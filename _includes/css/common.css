@@ -30,6 +30,10 @@ body {
 	justify-content: center;
 }
 
+.main-image h1 {
+	color: #fff;
+}
+
 h1 {
 	font-size: 80px;
 }
