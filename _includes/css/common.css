@@ -2,3 +2,48 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+	background-color: #e1e1e1;
+	height: 100%;
+}
+
+
+/* Style homepage */
+
+.main-image {
+	height: 100%;
+	background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: 220px;
+	color: #ffffff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.content {
+	margin-left: 220px;
+	background-color: #ffffff;
+}
+
+.content p {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}

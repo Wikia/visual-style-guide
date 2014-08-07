@@ -8,12 +8,11 @@
 </head>
 <body>
 
-<header class="masthead {{page.mastheadClass}}">
-	<h1>Wikia Styleguide</h1>
-	{% include nav.html navclass='nav-top' %}
-</header>
+{% include nav.html navclass='nav-top' %}
 
-{{content}}
+<div class="content {{page.contentClass}}">
+	{{content}}
+</div>
 
 </body>
 </html>
