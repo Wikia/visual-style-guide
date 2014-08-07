@@ -4,4 +4,4 @@
 {% include assets/foundation/stylesheets/app.css %}
 {% include css/common.css %}
 {% include css/nav.css %}
-
+{% include css/home.css %}

@@ -9,17 +9,7 @@
 	<script src="{{site.baseurl}}/js/main.js"></script>
 </head>
 <body>
-<div class="page">
-	<div class="row full-width">
-		<div class="small-2 columns main-columns main-columns-left">
-			{% include nav.html %}
-		</div>
-		<div class="small-10 columns main-columns main-columns-right">
-			<div class="container {{page.contentClass}}">
-				{{content}}
-			</div>
-		</div>
-	</div>
-</div>
+	{% include nav.html %}
+	{{content}}
 </body>
 </html>

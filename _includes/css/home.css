@@ -1,0 +1,25 @@
+/* Style homepage */
+/* line 3, ../_sass/home.scss */
+.header-home {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 320px;
+  min-height: 100%;
+  text-align: center;
+}
+/* line 11, ../_sass/home.scss */
+.header-home h1 {
+  color: #fff;
+  font-weight: bold;
+}
+/* line 16, ../_sass/home.scss */
+.header-home h2 {
+  color: #fff;
+}
+
+/* line 21, ../_sass/home.scss */
+.content-home {
+  background-color: #fff;
+  padding: 40px 0;
+}

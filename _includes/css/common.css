@@ -41,53 +41,38 @@ body {
   padding: 0;
 }
 
-/* line 41, ../_sass/common.scss */
+/* line 37, ../_sass/common.scss */
 .main-columns-right {
-  height: 100%;
+  min-height: 100%;
   background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* Style homepage */
-/* line 51, ../_sass/common.scss */
-.content-home {
-  background: transparent;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* line 59, ../_sass/common.scss */
-.content-home h1 {
-  color: #fff;
-  font-weight: bold;
-}
-/* line 64, ../_sass/common.scss */
-.content-home h2 {
-  color: #fff;
-}
-
-/* line 69, ../_sass/common.scss */
+/* line 45, ../_sass/common.scss */
 h1 {
   font-size: 80px;
 }
 
-/* line 72, ../_sass/common.scss */
+/* line 48, ../_sass/common.scss */
 h2 {
-  font-size: 26px;
+  font-size: 38px;
   font-weight: normal;
+  text-align: center;
 }
 
-/* line 79, ../_sass/common.scss */
-.container p {
+/* line 54, ../_sass/common.scss */
+.main-container {
+  margin-left: 320px;
+}
+/* line 56, ../_sass/common.scss */
+.main-container p {
   margin: 25px 0;
 }
 
 /* Style subpage */
-/* line 86, ../_sass/common.scss */
+/* line 63, ../_sass/common.scss */
 .subpage-category {
   color: white;
   font-size: 18px;
@@ -95,23 +80,23 @@ h2 {
   padding: 20px 30px;
 }
 
-/* line 93, ../_sass/common.scss */
+/* line 70, ../_sass/common.scss */
 .container-inner {
   background-color: white;
   padding: 0 20px;
 }
-/* line 97, ../_sass/common.scss */
+/* line 74, ../_sass/common.scss */
 .container-inner header {
   border-bottom: 1px solid #C6D0D7;
   padding: 50px 0px;
 }
-/* line 101, ../_sass/common.scss */
+/* line 78, ../_sass/common.scss */
 .container-inner header h1 {
   color: #0F3154;
   font-size: 42px;
   font-weight: bold;
 }
-/* line 107, ../_sass/common.scss */
+/* line 84, ../_sass/common.scss */
 .container-inner header p {
   color: #666;
   font-size: 16px;
