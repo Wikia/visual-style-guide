@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{page.title}} · {% endif %}Wikia Styleguide{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
+	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+	<meta name="description" content="{{page.meta}}">
+</head>
+<body>
+
+<header class="masthead {{page.mastheadClass}}">
+	<h1>Wikia Styleguide</h1>
+	{% include nav.html navclass='nav-top' %}
+</header>
+
+{{content}}
+
+</body>
+</html>

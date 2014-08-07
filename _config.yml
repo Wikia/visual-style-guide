@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /visual-style-guide
+exclude: ['README.md']
+permalink: /:categories/:title
