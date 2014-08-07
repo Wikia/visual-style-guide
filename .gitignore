@@ -1,2 +1,5 @@
 .idea
 _site
+visual-style-guide.sublime-project
+visual-style-guide.sublime-workspace
+_includes/.sass-cache
