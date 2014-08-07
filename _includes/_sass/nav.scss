@@ -2,11 +2,10 @@
 
 nav {
 	background-color: #fff;
-	height: 100%;
-	width: 220px;
+	height: 100%;	
 	text-align: center;
-	position: fixed;
 	overflow: auto;
+	width: 100%;
 
 	ul {
 		list-style: none;
@@ -48,8 +47,11 @@ nav {
 	}
 
 	.active {
-		background-color: #0a5fa3;
-		color: #ffffff;
+
+		a {
+			background-color: #0a5fa3;
+			color: #ffffff;
+		}
 	}
 
 	.dropdown {

@@ -13,6 +13,26 @@ body {
 	height: 100%;
 }
 
+.page {
+	height: 100%;
+}
+
+.full-width {
+	height: 100%;
+	margin: 0 auto;
+	max-width: initial;
+	width: 100%;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.main-columns {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 
 /* Style homepage */
 
@@ -22,7 +42,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-left: 220px;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -47,10 +66,13 @@ h2 {
 }
 
 .content {
-	margin-left: 220px;
 	background-color: #fff;
 
 	p {
 		margin: 25px 0;
 	}
 }
+
+/* Style subpage */
+
+

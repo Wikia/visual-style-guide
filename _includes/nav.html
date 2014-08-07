@@ -1,11 +1,13 @@
 <nav>
-
 	<img class="logo" src="{{site.baseurl}}/img/wikia-logo.png" alt="wikia logo"/>
 
 	<ul class="nav nav-primary">
-		<li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+		<li class="{% if page.url == '/index.html' %}active{% endif %}">
+			<a href="{{site.baseurl}}/">Home</a>
+		</li>
 		{% for parent in site.categories.main %}
-		<li><a>{{ parent.title }}</a>
+		<li class="{% if page.url contains parent.permalink %}active{% endif %}">
+			<a>{{ parent.title }}</a>
 			<ul class="nav nav-secondary dropdown">
 				{% for post in site.categories.[parent.subcategory] %}
 				<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
@@ -15,5 +17,3 @@
 		{% endfor %}
 	</ul>
 </nav>
-
-
