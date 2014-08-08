@@ -307,8 +307,10 @@ p {
 .color-probe:hover {
   border: 1px solid #c7d1d8;
   background: url("{{site.baseurl}}/img/copy-icon.png") white no-repeat 50% 30%;
+  background-color: #fff!important;
+  /* there's no true hack without important ;) */
 }
-/* line 29, ../_sass/colors-subpage.scss */
+/* line 30, ../_sass/colors-subpage.scss */
 .color-probe:hover::after {
   color: #0a5fa3;
   content: "Copy color value";
@@ -321,27 +323,27 @@ p {
   top: 0;
 }
 
-/* line 43, ../_sass/colors-subpage.scss */
+/* line 44, ../_sass/colors-subpage.scss */
 .mordor-bg-color {
   background-color: black;
 }
 
-/* line 47, ../_sass/colors-subpage.scss */
+/* line 48, ../_sass/colors-subpage.scss */
 .dark-knight-bg-color {
   background-color: #092140;
 }
 
-/* line 51, ../_sass/colors-subpage.scss */
+/* line 52, ../_sass/colors-subpage.scss */
 .cool-blue-bg-color {
   background-color: #0a5fa3;
 }
 
-/* line 55, ../_sass/colors-subpage.scss */
+/* line 56, ../_sass/colors-subpage.scss */
 .walter-white-bg-color {
   background-color: #c7d1d8;
 }
 
-/* line 59, ../_sass/colors-subpage.scss */
+/* line 60, ../_sass/colors-subpage.scss */
 .winterfell-bg-color {
   background-color: white;
   border: 1px solid #c7d1d8;

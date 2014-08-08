@@ -26,6 +26,7 @@
 	&:hover {
 		border: 1px solid $walterWhiteColor;
 		background: url("{{site.baseurl}}/img/copy-icon.png") #fff no-repeat 50% 30%;
+		background-color: #fff!important; /* there's no true hack without important ;) */
 		&::after {
 			color: $primaryColor;
 			content: "Copy color value";
