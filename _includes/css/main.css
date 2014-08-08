@@ -423,3 +423,31 @@ p {
 .content {
   padding-bottom: 120px;
 }
+
+/* line 65, ../_sass/subpage.scss */
+.footer-prev-next-nav {
+  background: #fff;
+  border-top: 1px solid #c7d1d8;
+  height: auto;
+  margin-left: 320px;
+}
+/* line 71, ../_sass/subpage.scss */
+.footer-prev-next-nav a {
+  color: #808080;
+  display: block;
+  padding: 35px 0;
+  text-align: center;
+}
+/* line 76, ../_sass/subpage.scss */
+.footer-prev-next-nav a:hover {
+  color: #0a5fa3;
+}
+/* line 80, ../_sass/subpage.scss */
+.footer-prev-next-nav .prev {
+  border-right: 1px solid #c7d1d8;
+}
+/* line 83, ../_sass/subpage.scss */
+.footer-prev-next-nav img {
+  display: inline-block;
+  margin: 0 10px;
+}

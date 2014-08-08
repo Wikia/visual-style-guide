@@ -61,3 +61,27 @@
 .content {
 	padding-bottom: 120px;
 }
+
+.footer-prev-next-nav {
+	background: #fff;
+	border-top: 1px solid $walterWhiteColor;
+	height: auto;
+	margin-left: $menuwidth;
+
+	a {
+		color: #808080;
+		display: block;
+		padding: 35px 0;
+		text-align: center;
+		&:hover {
+			color: $primaryColor;
+		}
+	}
+	.prev {
+		border-right: 1px solid $walterWhiteColor;
+	}
+	img {
+		display: inline-block;
+		margin: 0 10px;
+	}
+}
