@@ -1,8 +1,8 @@
 /* Style menu */
-
-nav {
+@import "custom-variables";
+.nav-top {
 	border-right: 1px solid #f0f0f0;
-	width: 320px;
+	width: $menuwidth;
 	position: fixed;
 	background-color: #fff;
 	height: 100%;
@@ -51,7 +51,7 @@ nav {
 
 	.item-primary {
 		&:hover {
-			background-color: #0a5fa3;
+			background-color: $primaryColor;
 			color: #ffffff;
 		}
 	}
@@ -74,7 +74,7 @@ nav {
 
 	.active {
 		&>.item-primary {
-			background-color: #0a5fa3;
+			background-color: $primaryColor;
 			color: #ffffff;
 			font-weight: bold;
 		}
@@ -83,7 +83,7 @@ nav {
 			font-weight: bold;
 		}
 		&>.item-tertiary {
-			color: #0a5fa3;
+			color: $primaryColor;
 			font-weight: bold;
 			&:hover {
 				background-color: transparent;
@@ -94,4 +94,24 @@ nav {
 
 .active a + .dropdown {
 	display: block;
+}
+
+/* section nav */
+.nav-section {
+	a {
+		border-bottom: 1px solid #fff;
+		color: #808080;
+		display: inline-block;
+		padding: 10px 20px;
+		&:hover {
+			border-bottom: 1px solid #808080;
+			color: $primaryColor;
+		}
+	}
+	ul {
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+	}
 }

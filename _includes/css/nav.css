@@ -1,6 +1,7 @@
 /* Style menu */
+/* colors */
 /* line 3, ../_sass/nav.scss */
-nav {
+.nav-top {
   border-right: 1px solid #f0f0f0;
   width: 320px;
   position: fixed;
@@ -10,36 +11,36 @@ nav {
   text-align: center;
 }
 /* line 12, ../_sass/nav.scss */
-nav .logo {
+.nav-top .logo {
   display: inline-block;
   padding-bottom: 60px;
   padding-top: 60px;
 }
 /* line 18, ../_sass/nav.scss */
-nav ul {
+.nav-top ul {
   list-style: none;
   text-align: left;
 }
 /* line 22, ../_sass/nav.scss */
-nav ul li {
+.nav-top ul li {
   list-style-type: none;
 }
 /* line 24, ../_sass/nav.scss */
-nav ul li ul {
+.nav-top ul li ul {
   margin-left: 0;
 }
 /* line 30, ../_sass/nav.scss */
-nav .nav-primary {
+.nav-top .nav-primary {
   border-top: 1px solid #f0f0f0;
   margin-left: 0;
   padding-left: 0;
 }
 /* line 36, ../_sass/nav.scss */
-nav .dropdown {
+.nav-top .dropdown {
   display: none;
 }
 /* line 40, ../_sass/nav.scss */
-nav a {
+.nav-top a {
   border-bottom: 1px solid #f0f0f0;
   color: #808080;
   display: block;
@@ -47,52 +48,74 @@ nav a {
   text-decoration: none;
 }
 /* line 47, ../_sass/nav.scss */
-nav a:hover {
+.nav-top a:hover {
   color: #808080;
 }
 /* line 53, ../_sass/nav.scss */
-nav .item-primary:hover {
+.nav-top .item-primary:hover {
   background-color: #0a5fa3;
   color: #ffffff;
 }
 /* line 59, ../_sass/nav.scss */
-nav .item-secondary {
+.nav-top .item-secondary {
   background-color: #ebebeb;
 }
 /* line 62, ../_sass/nav.scss */
-nav .item-secondary:hover {
+.nav-top .item-secondary:hover {
   background-color: #cecece;
 }
 /* line 67, ../_sass/nav.scss */
-nav .item-tertiary {
+.nav-top .item-tertiary {
   padding-left: 35px;
 }
 /* line 70, ../_sass/nav.scss */
-nav .item-tertiary:hover {
+.nav-top .item-tertiary:hover {
   background-color: #ebebeb;
 }
 /* line 76, ../_sass/nav.scss */
-nav .active > .item-primary {
+.nav-top .active > .item-primary {
   background-color: #0a5fa3;
   color: #ffffff;
   font-weight: bold;
 }
 /* line 81, ../_sass/nav.scss */
-nav .active > .item-secondary {
+.nav-top .active > .item-secondary {
   background-color: #ebebeb;
   font-weight: bold;
 }
 /* line 85, ../_sass/nav.scss */
-nav .active > .item-tertiary {
+.nav-top .active > .item-tertiary {
   color: #0a5fa3;
   font-weight: bold;
 }
 /* line 88, ../_sass/nav.scss */
-nav .active > .item-tertiary:hover {
+.nav-top .active > .item-tertiary:hover {
   background-color: transparent;
 }
 
 /* line 95, ../_sass/nav.scss */
 .active a + .dropdown {
   display: block;
+}
+
+/* section nav */
+/* line 101, ../_sass/nav.scss */
+.nav-section a {
+  border-bottom: 1px solid #fff;
+  color: #808080;
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* line 106, ../_sass/nav.scss */
+.nav-section a:hover {
+  border-bottom: 1px solid #808080;
+  color: #0a5fa3;
+}
+/* line 111, ../_sass/nav.scss */
+.nav-section ul {
+  margin: 0;
+}
+/* line 114, ../_sass/nav.scss */
+.nav-section li {
+  display: inline-block;
 }
