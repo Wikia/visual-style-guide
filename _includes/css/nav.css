@@ -1,3 +1,99 @@
+/* colors */
+/* line 1, ../_sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../_sass/common.scss */
+html {
+  height: 100%;
+}
+
+/* line 10, ../_sass/common.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+  background-color: #e1e1e1;
+  height: 100%;
+}
+
+/* line 16, ../_sass/common.scss */
+.full-width {
+  height: 100%;
+  margin: 0 auto;
+  max-width: initial;
+  width: 100%;
+}
+
+/* line 23, ../_sass/common.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 27, ../_sass/common.scss */
+.main-columns {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../_sass/common.scss */
+.main-columns-right {
+  min-height: 100%;
+  background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 41, ../_sass/common.scss */
+h1 {
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: bold;
+}
+
+/* line 46, ../_sass/common.scss */
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* line 52, ../_sass/common.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 56, ../_sass/common.scss */
+.main-container {
+  margin-left: 320px;
+}
+/* line 58, ../_sass/common.scss */
+.main-container p {
+  margin: 25px 0;
+}
+
+/* line 63, ../_sass/common.scss */
+.button {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #0a5fa3;
+  display: inline-block;
+  padding: 0 25px;
+}
+/* line 70, ../_sass/common.scss */
+.button:hover {
+  background-color: #0a4b8e;
+  color: #fff;
+}
+
+/* line 76, ../_sass/common.scss */
+.right {
+  float: right;
+}
+
 /* Style menu */
 /* colors */
 /* line 3, ../_sass/nav.scss */
@@ -99,23 +195,95 @@
 }
 
 /* section nav */
-/* line 101, ../_sass/nav.scss */
+/* line 100, ../_sass/nav.scss */
+.nav-section {
+  margin: 50px 0;
+}
+/* line 102, ../_sass/nav.scss */
 .nav-section a {
   border-bottom: 1px solid #fff;
   color: #808080;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px;
 }
-/* line 106, ../_sass/nav.scss */
+/* line 107, ../_sass/nav.scss */
 .nav-section a:hover {
   border-bottom: 1px solid #808080;
   color: #0a5fa3;
 }
-/* line 111, ../_sass/nav.scss */
+/* line 112, ../_sass/nav.scss */
 .nav-section ul {
   margin: 0;
 }
-/* line 114, ../_sass/nav.scss */
+/* line 115, ../_sass/nav.scss */
 .nav-section li {
   display: inline-block;
+}
+
+/* Style homepage */
+/* line 3, ../_sass/home.scss */
+.header-home {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 320px;
+  min-height: 100%;
+  text-align: center;
+}
+/* line 11, ../_sass/home.scss */
+.header-home h1 {
+  color: #fff;
+  font-weight: bold;
+}
+/* line 16, ../_sass/home.scss */
+.header-home h2 {
+  color: #fff;
+}
+
+/* line 21, ../_sass/home.scss */
+.content-home {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+/* Style subpage */
+/* line 3, ../_sass/subpage.scss */
+.subpage-category {
+  background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 320px;
+}
+
+/* line 11, ../_sass/subpage.scss */
+.subpage-category {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+
+/* line 18, ../_sass/subpage.scss */
+.container-inner {
+  background-color: white;
+  margin-left: 320px;
+  padding: 0 20px;
+}
+/* line 23, ../_sass/subpage.scss */
+.container-inner header {
+  border-bottom: 1px solid #C6D0D7;
+  padding: 50px 0px;
+}
+/* line 27, ../_sass/subpage.scss */
+.container-inner header h1 {
+  color: #0F3154;
+  font-size: 42px;
+  font-weight: bold;
+}
+/* line 33, ../_sass/subpage.scss */
+.container-inner header p {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
 }

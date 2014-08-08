@@ -98,11 +98,12 @@
 
 /* section nav */
 .nav-section {
+	margin: 50px 0;
 	a {
 		border-bottom: 1px solid #fff;
 		color: #808080;
 		display: inline-block;
-		padding: 10px 20px;
+		padding: 20px;
 		&:hover {
 			border-bottom: 1px solid #808080;
 			color: $primaryColor;

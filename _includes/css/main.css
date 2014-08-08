@@ -48,26 +48,33 @@ body {
 
 /* line 41, ../_sass/common.scss */
 h1 {
-  font-size: 80px;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: bold;
 }
 
-/* line 44, ../_sass/common.scss */
+/* line 46, ../_sass/common.scss */
 h2 {
   font-size: 38px;
   font-weight: normal;
   text-align: center;
 }
 
-/* line 50, ../_sass/common.scss */
+/* line 52, ../_sass/common.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 56, ../_sass/common.scss */
 .main-container {
   margin-left: 320px;
 }
-/* line 52, ../_sass/common.scss */
+/* line 58, ../_sass/common.scss */
 .main-container p {
   margin: 25px 0;
 }
 
-/* line 57, ../_sass/common.scss */
+/* line 63, ../_sass/common.scss */
 .button {
   height: 40px;
   line-height: 40px;
@@ -76,13 +83,13 @@ h2 {
   display: inline-block;
   padding: 0 25px;
 }
-/* line 64, ../_sass/common.scss */
+/* line 70, ../_sass/common.scss */
 .button:hover {
   background-color: #0a4b8e;
   color: #fff;
 }
 
-/* line 70, ../_sass/common.scss */
+/* line 76, ../_sass/common.scss */
 .right {
   float: right;
 }
@@ -188,23 +195,27 @@ h2 {
 }
 
 /* section nav */
-/* line 101, ../_sass/nav.scss */
+/* line 100, ../_sass/nav.scss */
+.nav-section {
+  margin: 50px 0;
+}
+/* line 102, ../_sass/nav.scss */
 .nav-section a {
   border-bottom: 1px solid #fff;
   color: #808080;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px;
 }
-/* line 106, ../_sass/nav.scss */
+/* line 107, ../_sass/nav.scss */
 .nav-section a:hover {
   border-bottom: 1px solid #808080;
   color: #0a5fa3;
 }
-/* line 111, ../_sass/nav.scss */
+/* line 112, ../_sass/nav.scss */
 .nav-section ul {
   margin: 0;
 }
-/* line 114, ../_sass/nav.scss */
+/* line 115, ../_sass/nav.scss */
 .nav-section li {
   display: inline-block;
 }
@@ -275,4 +286,13 @@ h2 {
   color: #666;
   font-size: 16px;
   font-weight: normal;
+}
+
+/* line 42, ../_sass/subpage.scss */
+.code-field {
+  background-color: #ebebeb;
+  min-height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

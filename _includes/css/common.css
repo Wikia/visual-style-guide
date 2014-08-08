@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$menuwidth".
-        on line 51 of C:/wamp/www/visual-style-guide/_includes/_sass/common.scss
+        on line 57 of C:/wamp/www/visual-style-guide/_includes/_sass/common.scss
 
 Backtrace:
-C:/wamp/www/visual-style-guide/_includes/_sass/common.scss:51
+C:/wamp/www/visual-style-guide/_includes/_sass/common.scss:57
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -76,4 +76,4 @@ C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$menuwidth\".\A         on line 51 of C:/wamp/www/visual-style-guide/_includes/_sass/common.scss"; }
+  content: "Syntax error: Undefined variable: \"$menuwidth\".\A         on line 57 of C:/wamp/www/visual-style-guide/_includes/_sass/common.scss"; }
