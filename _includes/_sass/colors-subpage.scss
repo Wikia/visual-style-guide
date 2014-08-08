@@ -1,0 +1,44 @@
+.color-content {
+	h3 {
+		clear: both;
+		margin-bottom: 55px;
+	}
+}
+
+.color-box {
+	float: left;
+	margin: 0 45px 40px 5px;
+	text-align: center;
+	width: 120px;
+
+	h5 {
+		margin: 0 0 7px;
+	}
+}
+
+.color-probe {
+	border-radius: 120px;
+	height: 120px;
+	margin-bottom: 27px;
+	width: 120px;
+}
+
+.mordor-bg-color {
+	background-color: $mordorColor;
+}
+
+.dark-knight-bg-color {
+	background-color: $darkKnightColor;
+}
+
+.cool-blue-bg-color {
+	background-color: $coolBlueColor;
+}
+
+.walter-white-bg-color {
+	background-color: $walterWhiteColor;
+}
+
+.winterfell-bg-color {
+	background-color: $winterfellColor;
+}

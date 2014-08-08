@@ -105,12 +105,12 @@ p {
 
 /* line 87, ../_sass/common.scss */
 .button {
-  height: 40px;
-  line-height: 40px;
+  text-align: center;
+  padding: 10px 25px;
+  line-height: 1.2em;
   color: #fff;
   background-color: #0a5fa3;
   display: inline-block;
-  padding: 0 25px;
 }
 /* line 94, ../_sass/common.scss */
 .button:hover {
@@ -277,7 +277,58 @@ p {
 }
 
 /* Style subpage */
-/* line 3, ../_sass/subpage.scss */
+/* line 2, ../_sass/colors-subpage.scss */
+.color-content h3 {
+  clear: both;
+  margin-bottom: 55px;
+}
+
+/* line 8, ../_sass/colors-subpage.scss */
+.color-box {
+  float: left;
+  margin: 0 45px 40px 5px;
+  text-align: center;
+  width: 120px;
+}
+/* line 14, ../_sass/colors-subpage.scss */
+.color-box h5 {
+  margin: 0 0 7px;
+}
+
+/* line 19, ../_sass/colors-subpage.scss */
+.color-probe {
+  border-radius: 120px;
+  height: 120px;
+  margin-bottom: 27px;
+  width: 120px;
+}
+
+/* line 26, ../_sass/colors-subpage.scss */
+.mordor-bg-color {
+  background-color: black;
+}
+
+/* line 30, ../_sass/colors-subpage.scss */
+.dark-knight-bg-color {
+  background-color: #092140;
+}
+
+/* line 34, ../_sass/colors-subpage.scss */
+.cool-blue-bg-color {
+  background-color: #0a5fa3;
+}
+
+/* line 38, ../_sass/colors-subpage.scss */
+.walter-white-bg-color {
+  background-color: #c7d1d8;
+}
+
+/* line 42, ../_sass/colors-subpage.scss */
+.winterfell-bg-color {
+  background-color: white;
+}
+
+/* line 5, ../_sass/subpage.scss */
 .subpage-category {
   background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
   background-position: center;
@@ -286,7 +337,7 @@ p {
   margin-left: 320px;
 }
 
-/* line 11, ../_sass/subpage.scss */
+/* line 13, ../_sass/subpage.scss */
 .subpage-category {
   color: white;
   font-size: 18px;
@@ -294,31 +345,32 @@ p {
   padding: 20px 30px;
 }
 
-/* line 18, ../_sass/subpage.scss */
+/* line 20, ../_sass/subpage.scss */
 .container-inner {
   background-color: white;
   margin-left: 320px;
   padding: 0 20px;
 }
-/* line 23, ../_sass/subpage.scss */
+/* line 25, ../_sass/subpage.scss */
 .container-inner header {
   border-bottom: 1px solid #C6D0D7;
+  margin-bottom: 55px;
   padding: 50px 0px;
 }
-/* line 27, ../_sass/subpage.scss */
+/* line 30, ../_sass/subpage.scss */
 .container-inner header h1 {
   color: #0F3154;
   font-size: 42px;
   font-weight: bold;
 }
-/* line 33, ../_sass/subpage.scss */
+/* line 36, ../_sass/subpage.scss */
 .container-inner header p {
   color: #666;
   font-size: 16px;
   font-weight: normal;
 }
 
-/* line 41, ../_sass/subpage.scss */
+/* line 44, ../_sass/subpage.scss */
 .code-field {
   background-color: #ebebeb;
   clear: both;
@@ -328,16 +380,16 @@ p {
   text-align: center;
 }
 
-/* line 50, ../_sass/subpage.scss */
+/* line 53, ../_sass/subpage.scss */
 .typo-item {
   margin-bottom: 120px;
 }
-/* line 52, ../_sass/subpage.scss */
+/* line 55, ../_sass/subpage.scss */
 .typo-item .columns {
   margin-bottom: 25px;
 }
 
-/* line 57, ../_sass/subpage.scss */
+/* line 60, ../_sass/subpage.scss */
 .content {
   padding-bottom: 120px;
 }
