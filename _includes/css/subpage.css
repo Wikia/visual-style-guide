@@ -1,5 +1,5 @@
 /*
-Syntax error: Undefined variable: "$mordorColor".
+Syntax error: Undefined variable: "$walterWhiteColor".
         on line 27 of C:/wamp/www/visual-style-guide/_includes/_sass/colors-subpage.scss
         from line 3 of C:/wamp/www/visual-style-guide/_includes/_sass/subpage.scss
 
@@ -8,7 +8,22 @@ C:/wamp/www/visual-style-guide/_includes/_sass/colors-subpage.scss:27
 C:/wamp/www/visual-style-guide/_includes/_sass/subpage.scss:3
 c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/list.rb:70:in `_perform'
+org/jruby/RubyArray.java:2336:in `collect'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/list.rb:69:in `_perform'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
+org/jruby/RubyKernel.java:2096:in `send'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:316:in `visit_rule'
 org/jruby/RubyKernel.java:2096:in `send'
 c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 c:/program files (x86)/scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
@@ -84,4 +99,4 @@ c:\program files (x86)\scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$mordorColor\".\A         on line 27 of C:/wamp/www/visual-style-guide/_includes/_sass/colors-subpage.scss\A         from line 3 of C:/wamp/www/visual-style-guide/_includes/_sass/subpage.scss"; }
+  content: "Syntax error: Undefined variable: \"$walterWhiteColor\".\A         on line 27 of C:/wamp/www/visual-style-guide/_includes/_sass/colors-subpage.scss\A         from line 3 of C:/wamp/www/visual-style-guide/_includes/_sass/subpage.scss"; }

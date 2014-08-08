@@ -20,7 +20,24 @@
 	border-radius: 120px;
 	height: 120px;
 	margin-bottom: 27px;
+	position: relative;
 	width: 120px;
+
+	&:hover {
+		border: 1px solid $walterWhiteColor;
+		background: url("{{site.baseurl}}/img/copy-icon.png") #fff no-repeat 50% 30%;
+		&::after {
+			color: $primaryColor;
+			content: "Copy color value";
+			left: 0;
+			line-height: 1.2em;
+			padding-top: 50px;
+			padding: 60px 15px 0 15px;
+			position: absolute;
+			text-align: center;
+			top: 0;
+		}
+	}
 }
 
 .mordor-bg-color {
