@@ -326,9 +326,39 @@ p {
 /* line 42, ../_sass/colors-subpage.scss */
 .winterfell-bg-color {
   background-color: white;
+  border: 1px solid #c7d1d8;
 }
 
-/* line 5, ../_sass/subpage.scss */
+/* line 1, ../_sass/imagery-subpage.scss */
+.image-box {
+  border: 1px solid #9f9f9f;
+  background: url("{{site.baseurl}}/img/img-icon.png") no-repeat 50% 50%;
+  margin-bottom: 25px;
+}
+/* line 6, ../_sass/imagery-subpage.scss */
+.image-box .imagery-number {
+  margin: 10px;
+}
+
+/* line 11, ../_sass/imagery-subpage.scss */
+.imagery-description {
+  margin-bottom: 55px;
+}
+
+/* line 14, ../_sass/imagery-subpage.scss */
+.imagery-number {
+  display: inline-block;
+  border: 1px solid #9f9f9f;
+  border-radius: 120px;
+  width: 27px;
+  height: 27px;
+  color: #9f9f9f;
+  text-align: center;
+  line-height: 27px;
+  margin: 0 15px 15px 0;
+}
+
+/* line 6, ../_sass/subpage.scss */
 .subpage-category {
   background-image: url("{{site.baseurl}}/img/wikia-universe.jpg");
   background-position: center;
@@ -337,7 +367,7 @@ p {
   margin-left: 320px;
 }
 
-/* line 13, ../_sass/subpage.scss */
+/* line 14, ../_sass/subpage.scss */
 .subpage-category {
   color: white;
   font-size: 18px;
@@ -345,32 +375,32 @@ p {
   padding: 20px 30px;
 }
 
-/* line 20, ../_sass/subpage.scss */
+/* line 21, ../_sass/subpage.scss */
 .container-inner {
   background-color: white;
   margin-left: 320px;
   padding: 0 20px;
 }
-/* line 25, ../_sass/subpage.scss */
+/* line 26, ../_sass/subpage.scss */
 .container-inner header {
   border-bottom: 1px solid #C6D0D7;
   margin-bottom: 55px;
   padding: 50px 0px;
 }
-/* line 30, ../_sass/subpage.scss */
+/* line 31, ../_sass/subpage.scss */
 .container-inner header h1 {
   color: #0F3154;
   font-size: 42px;
   font-weight: bold;
 }
-/* line 36, ../_sass/subpage.scss */
+/* line 37, ../_sass/subpage.scss */
 .container-inner header p {
   color: #666;
   font-size: 16px;
   font-weight: normal;
 }
 
-/* line 44, ../_sass/subpage.scss */
+/* line 45, ../_sass/subpage.scss */
 .code-field {
   background-color: #ebebeb;
   clear: both;
@@ -380,16 +410,16 @@ p {
   text-align: center;
 }
 
-/* line 53, ../_sass/subpage.scss */
+/* line 54, ../_sass/subpage.scss */
 .typo-item {
   margin-bottom: 120px;
 }
-/* line 55, ../_sass/subpage.scss */
+/* line 56, ../_sass/subpage.scss */
 .typo-item .columns {
   margin-bottom: 25px;
 }
 
-/* line 60, ../_sass/subpage.scss */
+/* line 61, ../_sass/subpage.scss */
 .content {
   padding-bottom: 120px;
 }

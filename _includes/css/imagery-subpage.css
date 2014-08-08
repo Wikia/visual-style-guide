@@ -1,0 +1,28 @@
+/* line 1, ../_sass/imagery-subpage.scss */
+.image-box {
+  border: 1px solid #9f9f9f;
+  background: url("{{site.baseurl}}/img/img-icon.png") no-repeat 50% 50%;
+  margin-bottom: 25px;
+}
+/* line 6, ../_sass/imagery-subpage.scss */
+.image-box .imagery-number {
+  margin: 10px;
+}
+
+/* line 11, ../_sass/imagery-subpage.scss */
+.imagery-description {
+  margin-bottom: 55px;
+}
+
+/* line 14, ../_sass/imagery-subpage.scss */
+.imagery-number {
+  display: inline-block;
+  border: 1px solid #9f9f9f;
+  border-radius: 120px;
+  width: 27px;
+  height: 27px;
+  color: #9f9f9f;
+  text-align: center;
+  line-height: 27px;
+  margin: 0 15px 15px 0;
+}
