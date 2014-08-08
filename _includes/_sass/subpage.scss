@@ -36,13 +36,24 @@
 			font-weight: normal;
 		}
 	}
-
 }
 
 .code-field {
 	background-color: #ebebeb;
-	min-height: 100px;
-	text-align: center;
+	clear: both;
 	display: flex;
 	justify-content: center;
+	min-height: 100px;
+	text-align: center;
+}
+
+.typo-item {
+	margin-bottom: 120px;
+	.columns {
+		margin-bottom: 25px;
+	}
+}
+
+.content {
+	padding-bottom: 120px;
 }
